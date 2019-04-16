@@ -1,0 +1,14 @@
+name: trichter-notebooks
+channels:
+- conda-forge
+- defaults
+dependencies:
+- obspy
+- h5py
+- tqdm
+- cartopy
+- geographiclib
+- shapely
+- gcc
+- pip:
+  - yam
